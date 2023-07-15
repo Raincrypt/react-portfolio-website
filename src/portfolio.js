@@ -271,7 +271,7 @@ const degrees = {
       duration: "2019 - 2023",
       descriptions: [
         "⚡ Current CGPA = 7.5 CGPA.",
-        "⚡ I have studied basic software engineering subjects like C++, DSA, Algorithms, Computer Network, Operating System, DBMS, etc.",
+        "⚡ Studied software engineering subjects like C++, DSA, OS, DBMS, etc.",
         "⚡ Apart from this, I have done courses on Front End Development.",
       ],
       website_link: "https://thapar.edu/",
