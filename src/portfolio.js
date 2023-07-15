@@ -13,21 +13,21 @@ const seo = {
   og: {
     title: "Mousom Sarkar Portfolio",
     type: "website",
-    url: "http://shourygupta28.github.io/My-React-Portfolio/",
+    url: "https://github.com/Raincrypt/react-portfolio-website/",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Mousom Sarkar",
-  logo_name: "MOUSOM",
-  // nickname: "Shauri",
+  logo_name: "Mousom",
+  // nickname: "Raja",
   subTitle:
     "A Front-End Web Developer & Software Developer. Skilled in designing, building & maintaining highly scalable and available software applications.",
   resumeLink:
-    "https://drive.google.com/file/d/1sG6RGYvqiAyQo12brExRMqTWlQD150XK/view?usp=sharing",
-  portfolio_repository: "https://github.com/shourygupta28",
-  githubProfile: "https://github.com/shourygupta28",
+    "https://drive.google.com/drive/folders/1TzipaFuaR-VCeUJpo4_g22fdZRMp2ibH?usp=sharing",
+  portfolio_repository: "https://github.com/Raincrypt",
+  githubProfile: "https://github.com/Raincrypt",
 };
 
 const socialMediaLinks = [
@@ -35,43 +35,31 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/shourygupta28",
+    link: "https://github.com/Raincrypt",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/shouryguptaa/",
+    link: "https://www.linkedin.com/in/mousom-sarkar-a38b21165/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
   {
     name: "Gmail",
-    link: "mailto:shourya.2001gupta@gmail.com",
+    link: "mailto:mousoms2204@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/iamshoury",
+    link: "https://twitter.com/MousomTG",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-  // {
-  //   name: "Facebook",
-  //   link: "",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/_._arcane_/",
+    link: "https://www.instagram.com/mousom_22/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -79,54 +67,13 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    // {
-    //   title: "Full Stack Development",
-    //   fileName: "FullStackImg",
-    //   skills: [
-    //     "⚡ Building resposive website front end using React",
-    //     "⚡ Developing highly scalable and maintainable REST APIs using NodeJS, Express, Django, PHP",
-    //     "⚡ Creating application backend using C++, along with integration of databases such as Oracle SQL & MongoDB",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Tensorflow",
-    //       fontAwesomeClassname: "logos-tensorflow",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Keras",
-    //       fontAwesomeClassname: "simple-icons:keras",
-    //       style: {
-    //         backgroundColor: "white",
-    //         color: "#D00000",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PyTorch",
-    //       fontAwesomeClassname: "logos-pytorch",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Python",
-    //       fontAwesomeClassname: "ion-logo-python",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //         color: "#3776AB",
-    //       },
-    //     },
-    //   ],
-    // },
     {
       title: "Front-End Web Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React",
-        "⚡ Developing highly scalable and maintainable REST APIs using NodeJS, Express, Django, PHP",
-        "⚡ Creating application backend using C++, along with integration of databases such as Oracle SQL & MongoDB",
+        "⚡ Well-Versed with HTML, CSS and Javascript",
+        "⚡ Building responsive website front end using React",
+        "⚡ Using Latest tools to build Websites for best user experiance",
       ],
       softwareSkills: [
         {
@@ -219,27 +166,6 @@ const skills = {
             color: "#FF9900",
           },
         },
-        // {
-        //   skillName: "Azure",
-        //   fontAwesomeClassname: "simple-icons:microsoftazure",
-        //   style: {
-        //     color: "#0089D6",
-        //   },
-        // },
-        // {
-        //   skillName: "Firebase",
-        //   fontAwesomeClassname: "simple-icons:firebase",
-        //   style: {
-        //     color: "#FFCA28",
-        //   },
-        // },
-        // {
-        //   skillName: "PostgreSQL",
-        //   fontAwesomeClassname: "simple-icons:postgresql",
-        //   style: {
-        //     color: "#336791",
-        //   },
-        // },
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
@@ -324,14 +250,6 @@ const competitiveSites = {
       },
       profileLink: "https://www.codechef.com/users/shauri2805",
     },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "http://codeforces.com/profile/layman_brother",
-    // },
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
@@ -340,14 +258,6 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerearth.com/@shourya91",
     },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF",
-    //   },
-    //   profileLink: "https://www.kaggle.com/laymanbrother",
-    // },
   ],
 };
 
@@ -355,14 +265,14 @@ const degrees = {
   degrees: [
     {
       title: "Thapar Institute Of Engineering & Technology",
-      subtitle: "B.E. in Electronics & Communication",
+      subtitle: "B.E. in Computer Science and Engineering",
       logo_path: "Thapar.png",
       alt_name: "Thapar Logo",
       duration: "2019 - 2023",
       descriptions: [
-        "⚡ Current CGPA = 7.2 CGPA.",
-        "⚡ I have studied basic software engineering subjects like C++, DSA, Algorithms, Computer Network, Operating System, DBMS, Analog & Digital Communication, DSP, ES etc.",
-        "⚡ Apart from this, I have done courses on Full Stack Development and Data Science.",
+        "⚡ Current CGPA = 7.5 CGPA.",
+        "⚡ I have studied basic software engineering subjects like C++, DSA, Algorithms, Computer Network, Operating System, DBMS, etc.",
+        "⚡ Apart from this, I have done courses on Front End Development.",
       ],
       website_link: "https://thapar.edu/",
     },
@@ -371,60 +281,6 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    // {
-    //   title: "Machine Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "stanford_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-    //   alt_name: "Stanford University",
-    //   color_code: "#8C151599",
-    // },
-    // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "Data Science",
-    //   subtitle: "- Alex Aklson",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Big Data",
-    //   subtitle: "- Kim Akers",
-    //   logo_path: "microsoft_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-    //   alt_name: "Microsoft",
-    //   color_code: "#D83B0199",
-    // },
-    // {
-    //   title: "Advanced Data Science",
-    //   subtitle: "- Romeo Kienzler",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
     {
       title: "C Programming For Beginners - Built Game Using C Language",
       subtitle: "- Learn Programming",
@@ -485,75 +341,25 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Internship and Volunteership",
+  subtitle: "Internships",
   description:
-    "I have worked with many clubs within my university and evolving startups as well as a Front-end Developer and Designer . I have also worked with some well established companies mostly as a Designer. I love organising events and that is why I am also involved with many college cells as a core member/representative.",
+    "I love doing projects and also contributed as web developer for start-ups",
   header_image_path: "experience.svg",
   sections: [
-    // {
-    //   title: "Work & Internships",
-    //   experiences: [
-    //     {
-    //       title: "Associate AI Engineer",
-    //       company: "Legato Health Technology",
-    //       company_url: "https://legatohealthtech.com/",
-    //       logo_path: "legato_logo.png",
-    //       duration: "June 2020 - PRESENT",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-    //       color: "#0879bf",
-    //     },
-    //     {
-    //       title: "Android and ML Developer",
-    //       company: "Muffito Incorporation",
-    //       company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-    //       logo_path: "muffito_logo.png",
-    //       duration: "May 2018 - Oct 2018",
-    //       location: "Pune, Maharashtra",
-    //       description:
-    //         "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-    //       color: "#9b1578",
-    //     },
-    //     {
-    //       title: "Android Developer",
-    //       company: "FreeCopy Pvt. Ltd.",
-    //       company_url: "https://www.linkedin.com/company/freecopy/about/",
-    //       logo_path: "freecopy_logo.png",
-    //       duration: "Nov 2017 - Dec 2017",
-    //       location: "Ahmedabad, Gujarat",
-    //       description:
-    //         "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-    //       color: "#fc1f20",
-    //     },
-    //   ],
-    // },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Junior Graphic Designer & Web Developer",
-          company: "Gradeffects Pvt. Ltd.",
-          company_url: "https://www.gradeffects.com/",
+          title: "Web Developer",
+          company: "Chaos Doodles",
+          company_url: "https://www.chaosdoodles.com/",
           logo_path: "Gradeffects logo.jfif",
-          duration: "July 2021 - Sept 2021",
+          duration: "Dec 2021 - Feb 2022",
           location: "Work from Home",
           description:
-            "I have worked on live projects undertaken by the company and designed front-end components for the same and did graphic designing for the social media posts and publicity. The tech stack I used was HTML, CSS, Bootstrap and JavaScript. And for graphic designing I used Adobe Photoshop and Adobe Illustrator.",
+            "I have helped building their website and designed front-end components for the same.",
           color: "#ee3c26",
         },
-        // {
-        //   title: "Data Science Intern",
-        //   company: "Intel Indexer LLC",
-        //   company_url:
-        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-        //   logo_path: "intel_logo.jpg",
-        //   duration: "Nov 2018 - Dec 2018",
-        //   location: "Work From Home",
-        //   description:
-        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-        //   color: "#0071C5",
-        // },
       ],
     },
     {
@@ -616,37 +422,23 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-// const publicationsHeader = {
-//   title: "Publications",
-//   description:
-//     "I have worked on and published a few research papers and publications of my own.",
-//   avatar_image_path: "projects_image.svg",
-// };
-
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "Shourya.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Front-End Web Development, Software Development and Opensource Development.",
   },
-  // blogSection: {
-  //   title: "Blogs",
-  //   subtitle:
-  //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-  //   link: "",
-  //   avatar_image_path: "blogs_image.svg",
-  // },
   addressSection: {
     title: "Address",
-    subtitle: "Mathura, Uttar Pradesh - 281001",
+    subtitle: "Lajpat Nagar, New Delhi - 110024",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://www.google.com/maps/@27.4958739,77.6760804,20z",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8273500941",
+    subtitle: "+91 8902010101",
   },
 };
 
@@ -661,6 +453,5 @@ export {
   certifications,
   experience,
   projectsHeader,
-  //publicationsHeader,
   contactPageData,
 };
